@@ -30,4 +30,9 @@
     [self.nameField resignFirstResponder];
     [self.numberField resignFirstResponder];
 }
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [self.nameField resignFirstResponder];
+    [self.numberField resignFirstResponder];
+}
 @end
