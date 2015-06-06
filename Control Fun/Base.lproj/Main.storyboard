@@ -47,6 +47,10 @@
                             <constraint firstItem="sau-GY-10N" firstAttribute="width" secondItem="GZK-KP-WPw" secondAttribute="width" id="mA5-KB-MLZ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameField" destination="vvt-6F-KKz" id="Ofy-82-xSj"/>
+                        <outlet property="numberField" destination="nPi-FK-EVA" id="Hqb-bR-f2H"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
