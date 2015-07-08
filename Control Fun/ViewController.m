@@ -37,6 +37,7 @@
     [self.numberField resignFirstResponder];
 }
 - (IBAction)sliderChanged:(UISlider *)sender {
+    
     int progress = lround(sender.value);
     self.sliderLabel.text = [NSString stringWithFormat:@"%d",progress];
 }
